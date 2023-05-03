@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "HelveticaNeueLTProLt";
+    src: url(../fonts/HelveticaNeueLTProLt.otf) format("otf");
+}
+@font-face {
+    font-family: "HelveticaNeueLTProMd";
+    src: url(../fonts/HelveticaNeueLTProMd.otf) format("otf");
+}
+@font-face {
+    font-family: "HelveticaNeueLTProRoman";
+    src: url(../fonts/HelveticaNeueLTProRoman.otf) format("otf");
+}
+@font-face {
+    font-family: "Merriweather-LightItalic";
+    src: url(../fonts/Merriweather-LightItalic.ttf) format("ttf");
+}
+@font-face {
+    font-family: "Montserrat-Light";
+    src: url(../fonts/Montserrat-Light.ttf) format("ttf");
+}
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url(../fonts/Montserrat-Regular.ttf) format("ttf");
+}
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url(../fonts/Roboto-Regular.ttf) format("ttf");
+}
+h1 {font-family: "HelveticaNeueLTProLt", sans-serif;}
+h2 {font-family: "HelveticaNeueLTProMd", sans-serif;}
+h3 {font-family: "HelveticaNeueLTProRoman", sans-serif;}
+h4 {font-family: "Merriweather-LightItalic", sans-serif;}
+h5 {font-family: "Montserrat-Light", sans-serif;}
+h6 {font-family: "Montserrat-Regular", sans-serif;}
+p {font-family: "Roboto-Regular", sans-serif;}
+
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+.header {
+}
+.menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu__item a {
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    color: #989696;
+    text-decoration: none;
+    margin-right: 43px;
+}
+.active a{
+    color: #010101;
+}
+.logo {
+}
+.header__content {
+}
+.header__title {
+}
+.header__text {
+}
+.header__button {
+}
